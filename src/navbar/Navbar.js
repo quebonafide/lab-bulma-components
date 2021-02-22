@@ -29,8 +29,8 @@ const Navbar = () => {
                 <div className="navbar-end">
                 <div className="navbar-item">
                     <div className="buttons">
-                    <CoolButton isSmall isDanger className="button">Login</CoolButton>
-                    <CoolButton isSmall isSuccess className="button" >Signup</CoolButton>
+                    <CoolButton isSmall isDanger className="button is-info">Login</CoolButton>
+                    <CoolButton isSmall isSuccess className="button is-primary" >Signup</CoolButton>
                     </div>
                 </div>
                 </div>

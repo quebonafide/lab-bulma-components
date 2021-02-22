@@ -11,7 +11,7 @@ const App = () => {
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
       <FormField label="Password" type="password" placeholder="e.g. top secret" />
-      <CoolButton isSmall isSuccess className="button" >Submit</CoolButton>
+      <CoolButton isSmall isSuccess className="button is-success" >Submit</CoolButton>
     </div>
   )
 };
